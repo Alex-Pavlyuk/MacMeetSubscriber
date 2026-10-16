@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# Swift / Xcode
+.build/
+.swiftpm/
+Packages/
+*.xcodeproj
+xcuserdata/
+DerivedData/
+
+# Build outputs
+dist/
+*.app
+*.icns
+
+# Recordings & personal data
+recordings/
+*.wav
+*.m4a
+*.mp3
+transcript.md
+summary.md
+metadata.json
+langdetect.log
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+
+# Secrets / env
+.env
+.env.*
+*.key
+*.pem
